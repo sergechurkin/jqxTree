@@ -1,5 +1,5 @@
 {
-    "name": "sergechurkin/jqxTree",
+    "name": "sergechurkin/jqxtree",
     "description": "An example of using js widgets jQWidgets. Exchange with the server is implemented using AJAX technology. The server part is written in PHP according to the MVC scheme.",
     "keywords": ["jqxTree", "jQWidgets", "git tag 1.1-dev"],
     "type": "project",
