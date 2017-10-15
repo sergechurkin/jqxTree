@@ -1,4 +1,4 @@
-# jqxTree
+# jqxtree
 An example of using js widgets jQWidgets. Exchange with the server is implemented using AJAX technology. The server part is written in PHP according to the MVC scheme.
 
 Пример использования js виджетов фреймворка jQWidgets. Обмен с сервером реализован по технологии AJAX. Серверная часть написана на PHP по схеме MVC.
