@@ -1,0 +1,27 @@
+{
+    "name": "sergechurkin/jqxTree",
+    "description": "An example of using js widgets jQWidgets. Exchange with the server is implemented using AJAX technology. The server part is written in PHP according to the MVC scheme.",
+    "keywords": ["jqxTree", "jQWidgets", "git tag 1.1-dev"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "php": ">=5.4.0"
+    },
+    "support": {
+        "issues": "https://github.com/sergechurkin/treegrid/jqxTree",
+        "source": "https://github.com/sergechurkin/jqxTree"
+    },
+    "authors": [
+        {
+            "name": "sergechurkin",
+            "email": "s-churkin@yandex.ru"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
