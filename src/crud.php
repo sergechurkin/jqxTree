@@ -9,9 +9,8 @@ class crud {
         if (mb_strtoupper($this->dbParams['driverName']) === 'MYSQL') {
             try {
                 $pdo = new \PDO($this->dbParams['driverName'] . ':dbname=' . $this->dbParams['database'] . ';host=' . $this->dbParams['host'] . ';charset=' . $this->dbParams['characterset'], $this->dbParams['username'], $this->dbParams['password']);
-            } catch (Exception $e) {
-                echo 'Нет соезинения с БД ' . $this->dbParams['database'] . ' host=' . $this->dbParams['host'] . "\n";
-                throw new \RuntimeException($e->getMessage());
+            } catch (\PDOException $e) {
+                die('Нет соезинения с БД ' . $this->dbParams['database'] . ' host=' . $this->dbParams['host'] . "\n");
             }
             return $pdo;
         }
